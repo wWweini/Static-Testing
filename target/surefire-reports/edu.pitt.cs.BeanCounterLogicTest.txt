@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: edu.pitt.cs.BeanCounterLogicTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.259 s <<< FAILURE! - in edu.pitt.cs.BeanCounterLogicTest
+testAdvanceStep6TimesLuckMode(edu.pitt.cs.BeanCounterLogicTest)  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: expected:<0> but was:<1>
+	at edu.pitt.cs.BeanCounterLogicTest.testAdvanceStep6TimesLuckMode(BeanCounterLogicTest.java:344)
+
+testMain(edu.pitt.cs.BeanCounterLogicTest)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: expected:<10> but was:<1>
+	at edu.pitt.cs.BeanCounterLogicTest.testMain(BeanCounterLogicTest.java:581)
+

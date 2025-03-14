@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.pitt.cs.BeanTest" time="0.033" tests="13" errors="0" skipped="0" failures="11">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\weini\Desktop\CS1632\deliverable-5-static-testing-123\target\test-classes;C:\Users\weini\Desktop\CS1632\deliverable-5-static-testing-123\target\classes;C:\Users\weini\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\weini\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\weini\.m2\repository\org\mockito\mockito-core\5.7.0\mockito-core-5.7.0.jar;C:\Users\weini\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\weini\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.9\byte-buddy-agent-1.14.9.jar;C:\Users\weini\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\weini\.m2\repository\com\github\spotbugs\spotbugs-annotations\4.8.6\spotbugs-annotations-4.8.6.jar;C:\Users\weini\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\weini\Desktop\CS1632\deliverable-5-static-testing-123\jpf-core\build\jpf.jar;C:\Users\weini\Desktop\CS1632\deliverable-5-static-testing-123\BeanCounterBuggy.jar;C:\Users\weini\Desktop\CS1632\deliverable-5-static-testing-123\BeanCounterSolution.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="user.country.format" value="CN"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.24.8-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\weini\AppData\Local\Temp\surefire1436403016957323606\surefirebooter17902566170338236290.jar C:\Users\weini\AppData\Local\Temp\surefire1436403016957323606 2024-11-15T16-57-27_012-jvmRun1 surefire4358084781971657349tmp surefire_08458573856842128558tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\weini\Desktop\CS1632\deliverable-5-static-testing-123\target\test-classes;C:\Users\weini\Desktop\CS1632\deliverable-5-static-testing-123\target\classes;C:\Users\weini\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\weini\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\weini\.m2\repository\org\mockito\mockito-core\5.7.0\mockito-core-5.7.0.jar;C:\Users\weini\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\weini\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.9\byte-buddy-agent-1.14.9.jar;C:\Users\weini\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\weini\.m2\repository\com\github\spotbugs\spotbugs-annotations\4.8.6\spotbugs-annotations-4.8.6.jar;C:\Users\weini\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\weini\Desktop\CS1632\deliverable-5-static-testing-123\jpf-core\build\jpf.jar;C:\Users\weini\Desktop\CS1632\deliverable-5-static-testing-123\BeanCounterBuggy.jar;C:\Users\weini\Desktop\CS1632\deliverable-5-static-testing-123\BeanCounterSolution.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\weini"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.24.8-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\weini\Desktop\CS1632\deliverable-5-static-testing-123"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\weini\AppData\Local\Temp\surefire1436403016957323606\surefirebooter17902566170338236290.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.24+8"/>
+    <property name="user.name" value="weini"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-11.0.24+8"/>
+    <property name="localRepository" value="C:\Users\weini\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\weini\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.24"/>
+    <property name="user.dir" value="C:\Users\weini\Desktop\CS1632\deliverable-5-static-testing-123"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="zh"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.24.8-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-11.0.24.8-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Program Files\Maven\apache-maven-3.9.9\bin;C:\Program Files\nodejs\;C:\Users\weini\AppData\Local\Microsoft\WindowsApps;C:\Users\weini\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\weini\AppData\Local\Programs\Git\cmd;C:\Users\weini\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="11.0.24+8"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testAdvanceStepLuckyBean10TimesLeft" classname="edu.pitt.cs.BeanTest" time="0">
+    <failure message="Expected BeanOutOfBoundsException" type="java.lang.AssertionError">java.lang.AssertionError: Expected BeanOutOfBoundsException
+	at edu.pitt.cs.BeanTest.testAdvanceStepLuckyBean10TimesLeft(BeanTest.java:199)
+</failure>
+  </testcase>
+  <testcase name="testAdvanceStepLuckyBeanOnceLeft" classname="edu.pitt.cs.BeanTest" time="0.001">
+    <failure message="expected:&lt;0&gt; but was:&lt;1&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<0> but was:<1>
+	at edu.pitt.cs.BeanTest.testAdvanceStepLuckyBeanOnceLeft(BeanTest.java:116)
+]]></failure>
+  </testcase>
+  <testcase name="testAdvanceStepLuckyBeanOnceRight" classname="edu.pitt.cs.BeanTest" time="0">
+    <failure message="expected:&lt;1&gt; but was:&lt;0&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at edu.pitt.cs.BeanTest.testAdvanceStepLuckyBeanOnceRight(BeanTest.java:156)
+]]></failure>
+  </testcase>
+  <testcase name="testAdvanceStepLuckyBeanTwiceLeft" classname="edu.pitt.cs.BeanTest" time="0.002">
+    <failure message="expected:&lt;0&gt; but was:&lt;2&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<0> but was:<2>
+	at edu.pitt.cs.BeanTest.testAdvanceStepLuckyBeanTwiceLeft(BeanTest.java:135)
+]]></failure>
+  </testcase>
+  <testcase name="testAdvanceStepLuckyBeanTwiceRight" classname="edu.pitt.cs.BeanTest" time="0.003">
+    <failure message="expected:&lt;2&gt; but was:&lt;0&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<2> but was:<0>
+	at edu.pitt.cs.BeanTest.testAdvanceStepLuckyBeanTwiceRight(BeanTest.java:177)
+]]></failure>
+  </testcase>
+  <testcase name="testAdvanceStepSkill0Bean9Times" classname="edu.pitt.cs.BeanTest" time="0.003">
+    <failure message="expected:&lt;0&gt; but was:&lt;9&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<0> but was:<9>
+	at edu.pitt.cs.BeanTest.testAdvanceStepSkill0Bean9Times(BeanTest.java:220)
+]]></failure>
+  </testcase>
+  <testcase name="testAdvanceStepSkill2Bean9Times" classname="edu.pitt.cs.BeanTest" time="0.003">
+    <failure message="expected:&lt;2&gt; but was:&lt;7&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<2> but was:<7>
+	at edu.pitt.cs.BeanTest.testAdvanceStepSkill2Bean9Times(BeanTest.java:240)
+]]></failure>
+  </testcase>
+  <testcase name="testAdvanceStepSkill2BeanOnce" classname="edu.pitt.cs.BeanTest" time="0.004">
+    <failure message="expected:&lt;1&gt; but was:&lt;0&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at edu.pitt.cs.BeanTest.testAdvanceStepSkill2BeanOnce(BeanTest.java:278)
+]]></failure>
+  </testcase>
+  <testcase name="testAdvanceStepSkill2BeanThrice" classname="edu.pitt.cs.BeanTest" time="0.003">
+    <failure message="expected:&lt;2&gt; but was:&lt;1&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<2> but was:<1>
+	at edu.pitt.cs.BeanTest.testAdvanceStepSkill2BeanThrice(BeanTest.java:317)
+]]></failure>
+  </testcase>
+  <testcase name="testAdvanceStepSkill2BeanTwice" classname="edu.pitt.cs.BeanTest" time="0.003">
+    <failure message="expected:&lt;2&gt; but was:&lt;0&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<2> but was:<0>
+	at edu.pitt.cs.BeanTest.testAdvanceStepSkill2BeanTwice(BeanTest.java:297)
+]]></failure>
+  </testcase>
+  <testcase name="testAdvanceStepSkill9Bean9Times" classname="edu.pitt.cs.BeanTest" time="0.002">
+    <failure message="expected:&lt;9&gt; but was:&lt;0&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<9> but was:<0>
+	at edu.pitt.cs.BeanTest.testAdvanceStepSkill9Bean9Times(BeanTest.java:260)
+]]></failure>
+  </testcase>
+  <testcase name="testConstructor" classname="edu.pitt.cs.BeanTest" time="0.002"/>
+  <testcase name="testReset" classname="edu.pitt.cs.BeanTest" time="0.002"/>
+</testsuite>

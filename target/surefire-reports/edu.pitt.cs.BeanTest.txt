@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: edu.pitt.cs.BeanTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 11, Errors: 0, Skipped: 0, Time elapsed: 0.033 s <<< FAILURE! - in edu.pitt.cs.BeanTest
+testAdvanceStepLuckyBean10TimesLeft(edu.pitt.cs.BeanTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Expected BeanOutOfBoundsException
+	at edu.pitt.cs.BeanTest.testAdvanceStepLuckyBean10TimesLeft(BeanTest.java:199)
+
+testAdvanceStepLuckyBeanOnceLeft(edu.pitt.cs.BeanTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected:<0> but was:<1>
+	at edu.pitt.cs.BeanTest.testAdvanceStepLuckyBeanOnceLeft(BeanTest.java:116)
+
+testAdvanceStepLuckyBeanOnceRight(edu.pitt.cs.BeanTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<0>
+	at edu.pitt.cs.BeanTest.testAdvanceStepLuckyBeanOnceRight(BeanTest.java:156)
+
+testAdvanceStepLuckyBeanTwiceLeft(edu.pitt.cs.BeanTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected:<0> but was:<2>
+	at edu.pitt.cs.BeanTest.testAdvanceStepLuckyBeanTwiceLeft(BeanTest.java:135)
+
+testAdvanceStepLuckyBeanTwiceRight(edu.pitt.cs.BeanTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected:<2> but was:<0>
+	at edu.pitt.cs.BeanTest.testAdvanceStepLuckyBeanTwiceRight(BeanTest.java:177)
+
+testAdvanceStepSkill0Bean9Times(edu.pitt.cs.BeanTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected:<0> but was:<9>
+	at edu.pitt.cs.BeanTest.testAdvanceStepSkill0Bean9Times(BeanTest.java:220)
+
+testAdvanceStepSkill2Bean9Times(edu.pitt.cs.BeanTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected:<2> but was:<7>
+	at edu.pitt.cs.BeanTest.testAdvanceStepSkill2Bean9Times(BeanTest.java:240)
+
+testAdvanceStepSkill2BeanOnce(edu.pitt.cs.BeanTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<0>
+	at edu.pitt.cs.BeanTest.testAdvanceStepSkill2BeanOnce(BeanTest.java:278)
+
+testAdvanceStepSkill2BeanThrice(edu.pitt.cs.BeanTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected:<2> but was:<1>
+	at edu.pitt.cs.BeanTest.testAdvanceStepSkill2BeanThrice(BeanTest.java:317)
+
+testAdvanceStepSkill2BeanTwice(edu.pitt.cs.BeanTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected:<2> but was:<0>
+	at edu.pitt.cs.BeanTest.testAdvanceStepSkill2BeanTwice(BeanTest.java:297)
+
+testAdvanceStepSkill9Bean9Times(edu.pitt.cs.BeanTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected:<9> but was:<0>
+	at edu.pitt.cs.BeanTest.testAdvanceStepSkill9Bean9Times(BeanTest.java:260)
+
